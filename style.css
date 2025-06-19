@@ -99,4 +99,54 @@ body {
     font-weight: bold;
     color: #ffffff;
   }
-  
+
+.nav-button {
+  background-color: white;
+  color: black;
+  padding: 10px 16px;
+  border: 1px solid #333;
+  margin: 4px;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.nav-button:hover {
+  background-color: #eee;
+  color: #000;
+}
+
+.kauf-box {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.bilder-reihe {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.bilder-reihe img {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+
+.buy-button {
+  display: inline-block;
+  background-color: #00b894;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+  margin-top: 10px;
+}
+
+.buy-button:hover {
+  background-color: #019374;
+}
