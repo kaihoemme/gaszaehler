@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .nav {
+    background-color: #333;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .nav-button {
+    display: inline-block;
+    margin: 5px 10px;
+    padding: 10px 16px;
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+  }
+  
+  .nav-button:hover {
+    background-color: #dddddd;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: center;
+    padding: 0 20px;
+  }
+  
+  .product-image {
+    max-width: 300px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px #000;
+    margin: 20px auto;
+  }
+  
+  .description {
+    font-size: 1.2em;
+    margin: 20px 0;
+  }
+  
+  .price {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .buy-button {
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    padding: 12px 24px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 2px solid #000;
+    transition: 0.3s;
+  }
+  
+  .buy-button:hover {
+    background-color: #dddddd;
+  }
+  
+.beschreibung {
+    max-width: 800px;
+    margin: 40px auto;
+    background: #1c1c1c;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px #000;
+    line-height: 1.6;
+  }
+  
+  .beschreibung h2, .beschreibung h3 {
+    margin-top: 1em;
+    color: #fff;
+  }
+  
+  .beschreibung ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .beschreibung li::before {
+    content: "• ";
+    color: #00ccff;
+    font-weight: bold;
+  }
+  
+  .preis-hinweis {
+    margin-top: 2em;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
